@@ -18,10 +18,37 @@
 </head>
 
 <body>
-
+    <!-- navber -->
     <header>
-        <div class="container my-3">
-            <h3 class="fw-bold">Zaara Convention Center</h3>
+        <div class="container">
+            <nav class="navbar navbar-expand-md navbar-dark">
+                <a class="navbar-brand" href="#">
+                    <h3 class="fw-bold text-dark">Zaara Convention Center</h3>
+                </a>
+                <button class="navbar-toggler bg-secondary" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#toggleMobileMenu" aria-controls="toggleMobileMenu" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="toggleMobileMenu">
+                    <ul class="navbar-nav ms-auto text-center text-dark ">
+                        <li>
+                            <a class="nav-link text-dark " href="#">Home</a>
+                        </li>
+                        <li>
+                            <a class="nav-link text-dark" href="#">About</a>
+                        </li>
+                        <li>
+                            <a class="nav-link text-dark" href="#">Feature</a>
+                        </li>
+                        <li class=>
+                            <a class="nav-link text-dark" href="#">Documents</a>
+                        </li>
+                        <button class="btn btn-outline-success ms-5" type="submit">Search</button>
+                    </ul>
+                </div>
+        </div>
+        </nav>
         </div>
         <!-- carousel slide -->
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
@@ -117,10 +144,11 @@
     <!-- Toast -->
 
 
-    <div class="toast show align-items-center" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="toast show align-items-center bg-primary text-light" role="alert" aria-live="assertive"
+        aria-atomic="true">
         <div class="d-flex">
             <div class="toast-body">
-                Hello, world! This is a toast message.
+                30% off on next booking.
             </div>
             <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
         </div>
