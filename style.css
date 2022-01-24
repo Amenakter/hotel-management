@@ -1,7 +1,12 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
-
+.caro-img{
+    width: 100%;;
+    height: 90vh;
+   
+   
+}
 .packege p{
     color:#848199;
     font-size: 15px;
@@ -19,7 +24,7 @@ body{
 .packege button{
     width: 80%;
     padding: 8px 0;
-    border-radius: 24px;
+    border-radius: 30px;
     background: #f1cce4;
     border: none;
     outline: none;
