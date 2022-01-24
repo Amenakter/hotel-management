@@ -32,5 +32,6 @@ body{
 .img{
  width: 150px;
  height: 50px;
+ cursor: pointer;
 
 }
